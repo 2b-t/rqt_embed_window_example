@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="EmbedWindowExample" type="rqt_embed_window_example.embed_window_example.EmbedWindowExample" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Example of embedding RViz and Plotjuggler into custom GUI with rqt_embed_window
+    </description>
+    <qtgui>
+      <label>Embed Window Example</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Embed Window Example</statustip>
+    </qtgui>
+  </class>
+</library>
