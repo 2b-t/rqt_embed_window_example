@@ -1,5 +1,7 @@
 # `rqt_embed_window_example`: Example of embedding `rqt_embed_window` widget into different tabs of a custom GUI
 
+Author: [Tobit Flatscher](https://github.com/2b-t)
+
 Small example of how the `rqt_embed_window` widget can be embedded into your custom GUI.
 
 1) [Create a new ROS workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace) 
