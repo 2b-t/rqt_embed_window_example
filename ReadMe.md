@@ -13,6 +13,12 @@ $ git clone https://github.com/2b-t/rqt_embed_window
 $ git clone https://github.com/2b-t/rqt_embed_window_example
 ```
 
+3) Install [`wmctrl`](https://linux.die.net/man/1/wmctrl)
+
+```bash
+$ sudo apt-get install wmctrl
+```
+
 3) Install **[plotjuggler](https://github.com/facontidavide/PlotJuggler)**
 
 ```bash
@@ -23,7 +29,7 @@ where `<distro>` corresponds to your ROS distro (e.g. melodic).
 
 4) Open a new console inside your workspace, source your workspace
 
-```
+```bash
 $ source devel/setup.bash
 ```
 
