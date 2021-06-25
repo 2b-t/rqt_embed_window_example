@@ -42,3 +42,9 @@ class EmbedWindowExample(Plugin):
         context.add_widget(self._widget)
         
         return
+
+    def shutdown_plugin(self):
+        # Free resources
+        self._widget.rviz_widget.kill_process()
+        self._widget.plotjuggler_widget.kill_process()
+        return
